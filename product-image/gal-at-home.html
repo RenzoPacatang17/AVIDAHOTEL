@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AVIDA HOTEL</title>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!--FONT AWESOME ICON-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<!--NAVIGATION BAR SECTION-->
+
+	<header>
+		<div class="content">
+			<h1>GAL AT HOME</h1>
+		</div>
+
+		<div class="menu-list" id="menuList">
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="../yearly.html">YEARLY INTEREST</a></li>
+				<li><a href="../monthly.html">MONTHLY INTEREST</a></li>
+				<li><a href="../usdtopeso.html">USD TO PESO CONVERSION</a></li>
+			</ul>
+		</div>
+
+		<div class="menuBtn" id="menuBtn">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+	</header>
+
+<!--HERO SECTION-->
+
+	<section>
+		<div class="container">
+			<div class="large-image" id="large-image">
+				<img src="../images/gal-at-home.jpg" alt="GAL AT HOME">
+
+				<div class="gallery-image" id="gallery-image">
+					<span class="arrow"> &#9665;</span>
+					<img src="../images/2br-condo.jpg" data-title="2BR CONDO" data-desc="Two-bedroom (2BR) condos in Davao City offer convenient, furnished, and ready-for-occupancy (RFO) options, frequently near major hubs like SM City Davao and Abreeza Mall." alt="2BR CONDO">
+					<img src="../images/grace-residences.jpg" data-title="GRACE RESIDENCES" data-desc="a 4-tower residential condominium development by SM Development Corporation (SMDC) located at Levi Mariano Avenue, Taguig City, Philippines." alt="GRACE RESIDENCES">
+					<img src="../images/great-investment.jpg" data-title="GREAT INVESTMENT" data-desc="is a hospitality property—such as a boutique hotel, resort, or chain—that generates strong financial returns, typically a 6–12% annual ROI, through operational profits, capital appreciation, and high-occupancy leisure travel demand. These properties offer investors diversified income streams (room, food/beverage) and tax advantages." alt="GREAT INVESTMENT">
+					<span class="arrow"> &#9655;</span>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="right">
+					<h2>GAL AT HOME</h2>
+					<p>It is our mission at Gal at Home® Design Studio to help busy moms and condo dwellers who feel lost or overwhelmed by their surroundings discover the confidence to create homes they truly love and enjoy living in. We believe that your home should be a reflection of your personality and values. We approach every project with a personalized touch, ensuring that your environment isn’t just visually appealing but also feels like home.</p>
+					<div class="quantity">
+					    <div class="controls">
+					        <p>Quantity:</p>
+					        <button class="minus">-</button>
+					        <p class="value">1</p>
+					        <button class="plus">+</button>
+					    </div>
+					    <p class="pesos" id="pesos">₱2000</p>
+					</div>
+
+					<div class="cart">
+						<button class="check-out" id="check-out">CHECKOUT</button>
+						<button class="back" id="back">BACK TO HOME</button>
+					</div>
+				</div>
+
+				<div class="popup" id="popup">
+					<span class="close-btn" id="close-btn">&times;</span>
+					<img class="popup-img" id="popup-img">
+					<p class="caption" id="popup-caption"></p>
+				</div>
+				<div class="toast">
+					<p id="toast">This is Toast Message</p>
+				</div>
+				
+			</div>		
+		</div>	
+	</section>
+
+	<script src="../js/script.js"></script>
+
+</body>
+</html>

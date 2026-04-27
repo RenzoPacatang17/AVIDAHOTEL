@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AVIDA HOTEL</title>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!--FONT AWESOME ICON-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<!--NAVIGATION BAR SECTION-->
+
+	<header>
+		<div class="content">
+			<h1>GREAT INVESTMENT</h1>
+		</div>
+
+		<div class="menu-list" id="menuList">
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="../yearly.html">YEARLY INTEREST</a></li>
+				<li><a href="../monthly.html">MONTHLY INTEREST</a></li>
+				<li><a href="../usdtopeso.html">USD TO PESO CONVERSION</a></li>
+			</ul>
+		</div>
+
+		<div class="menuBtn" id="menuBtn">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+	</header>
+
+<!--HERO SECTION-->
+
+	<section>
+		<div class="container">
+			<div class="large-image" id="large-image">
+				<img src="../images/great-investment.jpg" alt="GREAT INVESTMENT">
+
+				<div class="gallery-image" id="gallery-image">
+					<span class="arrow"> &#9665;</span>
+					<img src="../images/new-home.jpg" data-title="NEW HOME" data-desc="generally refers to a recently constructed, never-before-occupied, or newly acquired residential property. It signifies a fresh start, often featuring modern energy efficiency, contemporary designs, and the ability for the buyer to customize, acting as a blank canvas or a new residence." alt="NEW HOME">
+					<img src="../images/oh-so-cozy.jpg" data-title="OH SO COZY" data-desc="is an idiomatic expression used to emphasize that a place, item, or situation is extremely warm, comfortable, snug, and inviting. It often describes an atmosphere that feels like a warm hug, creating a sense of safety, relaxation, and contentment." alt="OH SO COZY">
+					<img src="../images/tiny-condo.jpg" data-title="TINY CONDO" data-desc="is a self-contained, high-density residential unit, typically 150–500 sq ft, merging living, sleeping, and kitchen areas into one room." alt="TINY CONDO">
+					<span class="arrow"> &#9655;</span>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="right">
+					<h2>GREAT INVESTMENT</h2>
+					<p> is a hospitality property—such as a boutique hotel, resort, or chain—that generates strong financial returns, typically a 6–12% annual ROI, through operational profits, capital appreciation, and high-occupancy leisure travel demand. These properties offer investors diversified income streams (room, food/beverage) and tax advantages.</p>
+					<div class="quantity">
+					    <div class="controls">
+					        <p>Quantity:</p>
+					        <button class="minus">-</button>
+					        <p class="value">1</p>
+					        <button class="plus">+</button>
+					    </div>
+					    <p class="pesos" id="pesos">₱2000</p>
+					</div>
+
+					<div class="cart">
+						<button class="check-out" id="check-out">CHECKOUT</button>
+						<button class="back" id="back">BACK TO HOME</button>
+					</div>
+				</div>
+
+				<div class="popup" id="popup">
+					<span class="close-btn" id="close-btn">&times;</span>
+					<img class="popup-img" id="popup-img">
+					<p class="caption" id="popup-caption"></p>
+				</div>
+				<div class="toast">
+					<p id="toast">This is Toast Message</p>
+				</div>
+				
+			</div>		
+		</div>	
+	</section>
+
+	<script src="../js/script.js"></script>
+
+</body>
+</html>

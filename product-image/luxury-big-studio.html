@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AVIDA HOTEL</title>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!--FONT AWESOME ICON-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<!--NAVIGATION BAR SECTION-->
+
+	<header>
+		<div class="content">
+			<h1>LUXURY BIG STUDIO</h1>
+		</div>
+
+		<div class="menu-list" id="menuList">
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="../yearly.html">YEARLY INTEREST</a></li>
+				<li><a href="../monthly.html">MONTHLY INTEREST</a></li>
+				<li><a href="../usdtopeso.html">USD TO PESO CONVERSION</a></li>
+			</ul>
+		</div>
+
+		<div class="menuBtn" id="menuBtn">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+	</header>
+
+<!--HERO SECTION-->
+
+	<section>
+		<div class="container">
+			<div class="large-image" id="large-image">
+				<img src="../images/luxury-big-studio.jpg" alt="LUXURY BIG STUDIO">
+
+				<div class="gallery-image" id="gallery-image">
+					<span class="arrow"> &#9665;</span>
+					<img src="../images/modern-scandinavian" data-title="MODERN SCANDINAVIAN" data-desc="is a minimalist interior style originating from Nordic countries (Denmark, Sweden, Norway, Finland, Iceland) in the mid-20th century, combining functionalism, clean lines, and cozy, natural elements." alt="MODERN SCANDINAVIAN">
+					<img src="../images/moose-condo-reno.jpg" data-title="MOOSE CONDO RENO" data-desc="is a specialized Toronto-based contractor, led by Mark Dayter, focusing on complete condo renovations, kitchen/bathroom remodeling, and, specifically, transforming older, divided units into modern, open-concept spaces." alt="MOOSE CONDO RENO">
+					<img src="../images/new-home-cosmo.jpg" data-title="NEW HOME COSMO" data-desc="is frequently used as an abbreviation for Cosmopolitan. It typically describes residential projects, areas, or lifestyles characterized by diversity, modern urban sophistication, and a mix of international or varied cultural influences." alt="NEW HOME COSMO">
+					<span class="arrow"> &#9655;</span>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="right">
+					<h2>LUXURY BIG STUDIO</h2>
+					<p>A luxury big studio is a high-end, open-plan residential unit that combines the bedroom, kitchen, and living area into one, yet offers significantly more square footage than a standard studio. These units are characterized by upscale finishes, modern amenities, premium locations, and designed to offer an elevated lifestyle rather than just a place to sleep.</p>
+					<div class="quantity">
+					    <div class="controls">
+					        <p>Quantity:</p>
+					        <button class="minus">-</button>
+					        <p class="value">1</p>
+					        <button class="plus">+</button>
+					    </div>
+					    <p class="pesos" id="pesos">₱2000</p>
+					</div>
+
+					<div class="cart">
+						<button class="check-out" id="check-out">CHECKOUT</button>
+						<button class="back" id="back">BACK TO HOME</button>
+					</div>
+				</div>
+
+				<div class="popup" id="popup">
+					<span class="close-btn" id="close-btn">&times;</span>
+					<img class="popup-img" id="popup-img">
+					<p class="caption" id="popup-caption"></p>
+				</div>
+				<div class="toast">
+					<p id="toast">This is Toast Message</p>
+				</div>
+				
+			</div>		
+		</div>	
+	</section>
+
+	<script src="../js/script.js"></script>
+
+</body>
+</html>

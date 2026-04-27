@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AVIDA HOTEL</title>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<!--FONT AWESOME ICON-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<!--NAVIGATION BAR SECTION-->
+
+	<header>
+		<div class="content">
+			<h1>MOOSE CONDO RENO</h1>
+		</div>
+
+		<div class="menu-list" id="menuList">
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="../yearly.html">YEARLY INTEREST</a></li>
+				<li><a href="../monthly.html">MONTHLY INTEREST</a></li>
+				<li><a href="../usdtopeso.html">USD TO PESO CONVERSION</a></li>
+			</ul>
+		</div>
+
+		<div class="menuBtn" id="menuBtn">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+	</header>
+
+<!--HERO SECTION-->
+
+	<section>
+		<div class="container">
+			<div class="large-image" id="large-image">
+				<img src="../images/moose-condo-reno.jpg" alt="MOOSE CONDO RENO">
+
+				<div class="gallery-image" id="gallery-image">
+					<span class="arrow"> &#9665;</span>
+					<img src="../images/2br-condo.jpg"data-title="2BR CONDO" data-desc="Two-bedroom (2BR) condos in Davao City offer convenient, furnished, and ready-for-occupancy (RFO) options, frequently near major hubs like SM City Davao and Abreeza Mall."  alt="2BR CONDO">
+					<img src="../images/grace-residences.jpg"data-title="GRACE RESIDENCES" data-desc="a 4-tower residential condominium development by SM Development Corporation (SMDC) located at Levi Mariano Avenue, Taguig City, Philippines."  alt="GRACE RESIDENCES">
+					<img src="../images/oh-so-cozy.jpg"data-title="OH SO COZY" data-desc="is an idiomatic expression used to emphasize that a place, item, or situation is extremely warm, comfortable, snug, and inviting. It often describes an atmosphere that feels like a warm hug, creating a sense of safety, relaxation, and contentment."  alt="OH SO COZY">
+					<span class="arrow"> &#9655;</span>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="right">
+					<h2>MOOSE CONDO RENO</h2>
+					<p>is a specialized Toronto-based contractor, led by Mark Dayter, focusing on complete condo renovations, kitchen/bathroom remodeling, and, specifically, transforming older, divided units into modern, open-concept spaces.</p>
+					<div class="quantity">
+					    <div class="controls">
+					        <p>Quantity:</p>
+					        <button class="minus">-</button>
+					        <p class="value">1</p>
+					        <button class="plus">+</button>
+					    </div>
+					    <p class="pesos" id="pesos">₱2000</p>
+					</div>
+
+					<div class="cart">
+						<button class="check-out" id="check-out">CHECKOUT</button>
+						<button class="back" id="back">BACK TO HOME</button>
+					</div>
+				</div>
+
+				<div class="popup" id="popup">
+					<span class="close-btn" id="close-btn">&times;</span>
+					<img class="popup-img" id="popup-img">
+					<p class="caption" id="popup-caption"></p>
+				</div>
+				<div class="toast">
+					<p id="toast">This is Toast Message</p>
+				</div>
+				
+			</div>		
+		</div>	
+	</section>
+
+	<script src="../js/script.js"></script>
+
+</body>
+</html>
