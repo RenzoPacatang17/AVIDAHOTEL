@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AVIDA HOTEL</title>
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--FONT AWESOME ICON-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<!--NAVIGATION BAR SECTION-->
+
+	<header>
+		<div class="content">
+			<h1>CHECK OUT</h1>
+		</div>
+
+		<div class="menu-list" id="menuList">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="yearly.html">YEARLY INTEREST</a></li>
+				<li><a href="monthly.html">MONTHLY INTEREST</a></li>
+				<li><a href="usdtopeso.html">USD TO PESO CONVERSION</a></li>
+			</ul>
+		</div>
+
+		<div class="menuBtn" id="menuBtn">
+			<i class="fa-solid fa-bars"></i>
+		</div>
+	</header>
+
+<!--CHECK OUT SECTION-->
+		
+	<main class="container1">
+		<div class="summary">
+			<h2>CHECK OUT SUMMARY</h2>
+			<p><strong>PRODUCT: </strong><span id="productName"></span></p>
+			<p><strong>QUANTITY: </strong><span id="qty"></span></p>
+			<p><strong>TOTAL PRICE: </strong>₱ <span id="total"></span></p>
+
+			<div class="btn" id="btn">
+				<button class="btn back-btn" id="backbtn"> BACK TO HOME</button>
+				<button class="btn pay-btn" id="paybtn"> PROCEED TO PAYMENT</button>
+			</div>
+		</div>
+	</main>
+	
+	<script src="js/script.js"></script>
+
+</body>
+</html>
